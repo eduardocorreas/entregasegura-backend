@@ -1,8 +1,8 @@
 {
-  "name": "adonis-ecommerce-realtime",
+  "name": "entrega-segura",
   "version": "1.0.0",
   "adonis-version": "1.0.0",
-  "description": "Adonis API Server for E-commerce realtime application",
+  "description": "API for Ecommerce App",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -10,10 +10,9 @@
     "dev": "adonis serve --dev --debug"
   },
   "keywords": [
-    "adonisjs",
-    "adonis-app"
+    "ecommerce"
   ],
-  "author": "Thauan Santos",
+  "author": "Eduardo Correa",
   "license": "MIT",
   "private": true,
   "dependencies": {
