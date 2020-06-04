@@ -2,7 +2,6 @@
 
 /** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
-const envConfig = dotenv.config({ silent: true })
 
 module.exports = {
   /*
