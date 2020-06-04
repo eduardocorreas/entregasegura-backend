@@ -2,6 +2,7 @@
 
 /** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
+const envConfig = dotenv.config({ silent: true })
 
 module.exports = {
   /*
@@ -15,7 +16,7 @@ module.exports = {
   |
   */
 
-  name: Env.get('APP_NAME', 'E-commerce Realtime'),
+  name: Env.get('APP_NAME', 'Entrega Segura'),
 
   /*
   |--------------------------------------------------------------------------
